@@ -11,6 +11,7 @@
       android:layout_weight="1">
 
     <!-- Places sample -->
+      <!--spring-->
 
     <FrameLayout
         android:layout_height="wrap_content"
@@ -22,17 +23,18 @@
           android:layout_width="fill_parent"
           android:layout_height="fill_parent"
           style="@style/image_view"
-          android:src="@drawable/places_button_image"/>
+          android:src="@drawable/four_seasons_spring"/>
 
       <TextView
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:text="@string/main_activity_places_button_title"
+          android:text="@string/main_activity_spring_button_title"
           style="@style/main_activity_button_title"/>
 
     </FrameLayout>
 
     <!-- Tv Shows Sample -->
+      <!--summer-->
 
     <FrameLayout
         android:layout_height="wrap_content"
@@ -43,14 +45,14 @@
           android:id="@+id/iv_tv_shows"
           android:layout_width="fill_parent"
           android:layout_height="fill_parent"
-          android:src="@drawable/tv_show_button_image"
+          android:src="@drawable/four_seasons_summer"
           style="@style/image_view"/>
 
 
       <TextView
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:text="@string/main_activity_tv_shows_button_title"
+          android:text="@string/main_activity_summer_button_title"
           style="@style/main_activity_button_title"/>
 
     </FrameLayout>
@@ -65,6 +67,7 @@
       android:layout_weight="1">
 
     <!-- Youtube Sample -->
+      <!--fall-->
 
     <FrameLayout
         android:layout_height="wrap_content"
@@ -75,19 +78,20 @@
           android:id="@+id/iv_youtube"
           android:layout_width="fill_parent"
           android:layout_height="fill_parent"
-          android:src="@drawable/youtube_button_image"
+          android:src="@drawable/four_seasons_fall"
           style="@style/image_view"/>
 
 
       <TextView
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:text="@string/main_activity_youtube_button_title"
+          android:text="@string/main_activity_fall_button_title"
           style="@style/main_activity_button_title"/>
 
     </FrameLayout>
 
     <!-- Video Sample -->
+      <!--winter-->
 
     <FrameLayout
         android:layout_height="wrap_content"
@@ -98,14 +102,13 @@
           android:id="@+id/iv_video"
           android:layout_width="fill_parent"
           android:layout_height="fill_parent"
-          android:src="@drawable/video_button_image"
+          android:src="@drawable/four_seasons_winter"
           style="@style/image_view"/>
-
 
       <TextView
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:text="@string/main_activity_video_view_button_title"
+          android:text="@string/main_activity_winter_button_title"
           style="@style/main_activity_button_title"/>
 
     </FrameLayout>

@@ -52,22 +52,6 @@
             android:name=".activity.TvShowsActivity"
             android:label="@string/tv_shows_sample_activity_title"/>
 
-
-        <!-- Youtube Sample -->
-
-        <activity
-            android:name=".activity.YoutubeSampleActivity"
-            android:label="@string/youtube_sample_activity_title">
-        </activity>
-
-
-        <!-- Video Sample -->
-
-        <activity
-            android:name=".activity.VideoSampleActivity"
-            android:label="@string/video_sample_activity_title">
-        </activity>
-
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version"/>
